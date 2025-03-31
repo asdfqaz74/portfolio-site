@@ -24,7 +24,7 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="flex flex-col items-center py-20 gap-10 scroll-mt-1"
+      className="flex flex-col items-center py-20 gap-10 scroll-mt-10"
     >
       <h2 className="text-4xl font-bold mb-10">Stack Skills</h2>
       <Graph title="Language" data={languageData} />

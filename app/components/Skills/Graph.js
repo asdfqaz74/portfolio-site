@@ -43,7 +43,15 @@ export default function Graph({ title, data }) {
 
     const y = d3.scaleLinear().domain([0, 100]).range([height, 0]);
 
-    chart.append("g").call(d3.axisLeft(y).tickValues(d3.range(0, 101, 20)));
+    chart
+      .append("g")
+      .call(d3.axisLeft(y).tickValues(d3.range(0, 101, 20)))
+      .append("text")
+      .attr("text-anchor", "middle")
+      .attr("transform", `translate(${-30}, ${height / 2}) rotate(-90)`)
+      .attr("fill", "#Ffffff")
+      .attr("font-size", "12px")
+      .text("Score");
 
     chart
       .selectAll(".icon")
