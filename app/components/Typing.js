@@ -4,7 +4,7 @@ import { TypeAnimation } from "react-type-animation";
 
 export default function Typing() {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen gap-5 pb-30">
+    <div className="flex flex-col items-center justify-center min-h-screen gap-5 pb-72">
       <h2 className="text-4xl">
         안녕하세요. FrontEnd 개발자를 꿈꾸는 강진성 입니다.
       </h2>
