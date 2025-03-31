@@ -22,7 +22,7 @@ export default function AboutMe() {
         height={200}
         className="rounded-full"
       />
-      <span className="text-2xl">저의 정보를 알려드립니다</span>
+      <span className="text-4xl">About Me</span>
       <div className="flex flex-col gap-20 items-center">
         <div className="grid grid-cols-2 gap-30">
           <AboutPart category={"이름"} value={"강진성"} image={"user"} />

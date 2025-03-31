@@ -26,7 +26,7 @@ export default function Skills() {
       id="skills"
       className="flex flex-col items-center py-20 gap-10 scroll-mt-1"
     >
-      <h2 className="text-2xl font-bold mb-10">기술 스택입니다</h2>
+      <h2 className="text-4xl font-bold mb-10">Stack Skills</h2>
       <Graph title="Language" data={languageData} />
       <Graph title="Front-End" data={frontEndData} />
       <div className="flex gap-20">

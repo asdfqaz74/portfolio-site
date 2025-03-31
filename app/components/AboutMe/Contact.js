@@ -14,7 +14,7 @@ export default function Contact() {
       className="h-full px-auto flex flex-col scroll-mt-90 items-center justify-center gap-20 mb-90"
       id="contact"
     >
-      <span className="text-2xl">연락처 입니다</span>
+      <span className="text-4xl">Contact</span>
       <div className="grid grid-cols-2 gap-30">
         <AboutPart
           category={"전화번호"}

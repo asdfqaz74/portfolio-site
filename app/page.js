@@ -6,7 +6,7 @@ import HorizonLine from "./components/HorizonLine";
 import Archive from "./components/Archive";
 import Education from "./components/Education";
 import Skills from "./components/Skills/Skills";
-import Portfolio from "./Portfolio/Portfolio";
+import Portfolio from "./components/Portfolio/Portfolio";
 
 export default function Home() {
   return (

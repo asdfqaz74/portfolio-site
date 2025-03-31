@@ -73,7 +73,7 @@ export default function Graph({ title, data }) {
       .attr("y", height)
       .attr("width", x.bandwidth())
       .attr("height", 0)
-      .attr("fill", "#facc15");
+      .attr("fill", "#FCD34D");
 
     if (visible) {
       bars

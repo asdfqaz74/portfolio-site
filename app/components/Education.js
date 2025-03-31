@@ -6,17 +6,17 @@ export default function Education() {
       className="flex flex-col gap-20 pt-40 mb-50 scroll-mt-20"
       id="education"
     >
-      <span className="text-2xl font-bold text-center">교육 이력입니다</span>
+      <span className="text-4xl font-bold text-center">Education</span>
 
       {/* 강원대학교 */}
       <div className="flex flex-col gap-4 w-full max-w-xl mx-auto text-left">
-        <span className="text-yellow-400 font-semibold text-2xl">23.07</span>
+        <span className="text-amber-300 font-semibold text-2xl">23.07</span>
         <span>강원대학교 전자정보통신공학부 전자공학과 졸업</span>
       </div>
 
       {/* 멋쟁이사자처럼 수료 */}
       <div className="flex flex-col gap-4 w-full max-w-xl mx-auto text-left">
-        <span className="text-yellow-400 font-semibold text-2xl">
+        <span className="text-amber-300 font-semibold text-2xl">
           23.10 ~ 24.03 멋쟁이사자처럼 프론트엔드 스쿨 8기 수료
         </span>
 
