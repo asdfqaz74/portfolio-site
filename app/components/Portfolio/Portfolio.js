@@ -55,7 +55,7 @@ export default function Portfolio() {
             "Mongoose",
             "TailwindCSS",
           ]}
-          link={"https://team-maker.me/"}
+          link={"https://lol-teammaker.netlify.app/"}
           github1={"https://github.com/asdfqaz74/lolbanhelper-fe"}
           github2={"https://github.com/asdfqaz74/lolbanhelper-be"}
           desc1={"프론트엔드 깃허브 바로가기"}
