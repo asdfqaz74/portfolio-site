@@ -61,6 +61,17 @@ export default function Portfolio() {
           desc1={"프론트엔드 깃허브 바로가기"}
           desc2={"백엔드 깃허브 바로가기"}
         />
+        <PortfolioSection
+          thumbnail={"team-maker2"}
+          title={"팀 메이커 시즌2"}
+          date={"24.4.5"}
+          techs={["공사중"]}
+          link={"https://team-maker.me/"}
+          github1={"https://github.com/asdfqaz74/team-maker"}
+          github2={"https://github.com/asdfqaz74/team-maker-be"}
+          desc1={"프론트엔드 깃허브 바로가기"}
+          desc2={"백엔드 깃허브 바로가기"}
+        />
       </div>
     </div>
   );
