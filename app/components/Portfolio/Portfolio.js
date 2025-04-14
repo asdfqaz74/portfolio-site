@@ -43,7 +43,7 @@ export default function Portfolio() {
         <PortfolioSection
           thumbnail={"team-maker"}
           title={"팀 메이커"}
-          date={"24.10.22"}
+          date={"24.10.22 - 24.12.01"}
           techs={[
             "JavaScript",
             "React-query",
@@ -64,7 +64,7 @@ export default function Portfolio() {
         <PortfolioSection
           thumbnail={"team-maker2"}
           title={"팀 메이커 시즌2"}
-          date={"24.4.5"}
+          date={"25.4.5"}
           techs={["공사중"]}
           link={"https://team-maker.me/"}
           github1={"https://github.com/asdfqaz74/team-maker"}
