@@ -65,7 +65,7 @@ export default function Portfolio() {
           thumbnail={"team-maker2"}
           title={"팀 메이커 시즌2"}
           date={"25.4.5"}
-          techs={["공사중"]}
+          techs={["공사중", "아이디: asdf1234", "비밀번호: asdf1234"]}
           link={"https://team-maker.me/"}
           github1={"https://github.com/asdfqaz74/team-maker"}
           github2={"https://github.com/asdfqaz74/team-maker-be"}
