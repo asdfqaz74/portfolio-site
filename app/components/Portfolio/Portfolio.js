@@ -65,7 +65,32 @@ export default function Portfolio() {
           thumbnail={"team-maker2"}
           title={"팀 메이커 시즌2"}
           date={"25.4.5"}
-          techs={["공사중", "아이디: asdf1234", "비밀번호: asdf1234"]}
+          techs={[
+            "아이디: asdf1234",
+            "비밀번호: asdf1234",
+            "Frontend",
+            "TypeScript",
+            "Next.js",
+            "React",
+            "TailwindCSS",
+            "Jotai",
+            "Tanstack React Query",
+            "Framer Motion",
+            "GSAP",
+            "MUI",
+            "Backend",
+            "Node.js",
+            "Express",
+            "MongoDB",
+            "Mongoose",
+            "Etc",
+            "NextAuth.js",
+            "jsonwebtoken",
+            "bcrypt",
+            "Nodemailer",
+            "Lottie",
+            "D3.js",
+          ]}
           link={"https://team-maker.me/"}
           github1={"https://github.com/asdfqaz74/team-maker-ts"}
           github2={"https://github.com/asdfqaz74/team-maker-be"}

@@ -36,11 +36,22 @@ export default function PortfolioSection({
           </div>
 
           {/* Back Side */}
-          <div className="absolute w-full h-full backface-hidden rotate-y-180 flex flex-col items-center justify-center gap-3 p-6 bg-gray-800 text-white rounded-lg shadow-lg cursor-pointer">
+          <div className="absolute w-full h-full backface-hidden rotate-y-180 flex flex-col items-center justify-start gap-3 p-6 bg-gray-800 text-white rounded-lg shadow-lg cursor-pointer overflow-y-auto">
             <span className="text-xl font-bold mb-2">사용 기술</span>
             <ul className="list-disc text-sm text-left">
               {techs.map((t, i) => (
-                <li key={i} className="my-2">
+                <li
+                  key={i}
+                  className={`my-2 ${
+                    t === "Frontend"
+                      ? "text-amber-400 font-semibold"
+                      : t === "Backend"
+                      ? "text-emerald-400 font-semibold"
+                      : t === "Etc"
+                      ? "text-sky-400 font-semibold"
+                      : ""
+                  }`}
+                >
                   {t}
                 </li>
               ))}
